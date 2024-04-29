@@ -1,10 +1,4 @@
-/******* Bootstrap Theming ********/
-/*!
- * Bootstrap v4.5.3 (https://getbootstrap.com/)
- * Copyright 2011-2020 The Bootstrap Authors
- * Copyright 2011-2020 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- */
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -516,7 +510,8 @@ mark,
 
 .initialism {
   font-size: 90%;
-  text-transform: uppercase;nav-item nav-link
+  text-transform: uppercase;
+  /* nav-item nav-link */
 }
 
 .blockquote {
@@ -4094,6 +4089,7 @@ input[type="button"].btn-block {
   height: 1.5em;
   vertical-align: middle;
   content: "";
+  
   background: no-repeat center center;
   background-size: 100% 100%;
 }
@@ -4362,13 +4358,78 @@ input[type="button"].btn-block {
 .navbar-dark .navbar-nav .nav-link.active {
   color: black;
 }
+                         
+.cube {
+  width: 100px;
+  height: 100px;
+  transform-style: preserve-3d;
+  animation: rotateCube 4s infinite linear;
+  
+ 
+}
 
+.imgs{
+  padding-top: 70px;
+}
+
+.face {
+  width: 200px;
+  height: 400px;
+  position: absolute;
+  text-align: center;
+  line-height: 100px;
+  font-size:10px;
+  color:black;
+  font-weight: 800;
+  background-color: white;
+  padding-top: 5rem;
+  
+  
+  border: 5px solid black;
+}
+
+.cgg{
+  background-color:#9ECC26;
+}
+
+.front  { transform: translateZ(100px); }
+.back   { transform: rotateY(180deg) translateZ(100px); }
+.right  { transform: rotateY(90deg) translateZ(100px); }
+.left   { transform: rotateY(-90deg) translateZ(100px); }
+.top    { transform: rotateX(90deg) translateZ(100px); }
+.bottom { transform: rotateX(-90deg) translateZ(100px); }
+.cgg{
+  background-color: #9ECC47;
+}
+@keyframes rotateCube {
+  from { transform: rotateY(0); }
+  to { transform: rotateY(360deg); }
+}
+@media(max-width:992px){
+
+  .cube{
+      height: 200px;
+  }
+  .face{
+      height: 200px;
+      padding-top: 0;
+  }
+  .cgg .cgg1{
+      height: 100%;
+  }
+  .imgs{
+      padding-top: 0;
+  }
+
+}
 .navbar-dark .navbar-toggler {
+  background-color: var(--primary);
   color: rgba(255, 255, 255, 0.5);
   border-color: rgba(255, 255, 255, 0.1);
 }
 
 .navbar-dark .navbar-toggler-icon {
+ 
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
@@ -9498,11 +9559,11 @@ h6 {
 .section-title::before {
   position: absolute;
   content: "";
-  top: 10px;
+  top: 0px;
   left: 0;
   width: 45px;
   height: 3px;
-  background: #9ECC47;
+  background: black;
 }
 
 [class^=flaticon-]:before,
