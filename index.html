@@ -108,7 +108,8 @@
         <div id="header-carousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="w-100" src="img/1.jpg" alt="Image">
+                    <img class="w-100 desktop" src="img/1.jpg" alt="Image">
+                    <img class="w-100 mobile" src="img/1xs.jpg" alt="Image">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center"
                         data-aos="fade-up">
                         <div class="p-3" style="max-width: 800px;">
@@ -120,7 +121,8 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="w-100" src="img/2.jpg" alt="Image">
+                    <img class="w-100 desktop" src="img/2.jpg" alt="Image">
+                    <img class="w-100 mobile" src="img/2xs.jpg" alt="Image">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 800px;">
                             <h4 class="text-primary text-uppercase font-weight-normal mb-md-3">Creative Interior Design
@@ -131,7 +133,8 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="w-100" src="img/3.jpg" alt="Image">
+                    <img class="w-100 desktop" src="img/3.jpg" alt="Image">
+                    <img class="w-100 mobile" src="img/3xs.jpg" alt="Image">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 800px;">
                             <h4 class="text-primary text-uppercase font-weight-normal mb-md-3">Creative Interior Design
@@ -158,7 +161,20 @@
     </div>
     <!-- Carousel End -->
 
-    
+    <style>
+        .carousel-item .mobile{
+display: none;
+        }
+        
+        @media(max-width:992px){
+            .carousel-item .mobile{
+display: block;
+        }
+            .carousel-item .desktop{
+display: none;
+        }
+        }
+    </style>
 
     <!-- About Start -->
     <div class="container-fluid cgg">
@@ -225,7 +241,68 @@
 
     <!-- About End -->
     <style>
-      
+      .cube {
+  width: 100px;
+  height: 100px;
+  transform-style: preserve-3d;
+  animation: rotateCube 4s infinite linear;
+  
+ 
+}
+
+.imgs{
+  padding-top: 70px;
+}
+
+.face {
+  width: 200px;
+  height: 400px;
+  position: absolute;
+  text-align: center;
+  line-height: 100px;
+  font-size:10px;
+  color:black;
+  font-weight: 800;
+  background-color: white;
+  padding-top: 5rem;
+  
+  
+  border: 5px solid black;
+}
+
+.cgg{
+  background-color:#9ECC26;
+}
+
+.front  { transform: translateZ(100px); }
+.back   { transform: rotateY(180deg) translateZ(100px); }
+.right  { transform: rotateY(90deg) translateZ(100px); }
+.left   { transform: rotateY(-90deg) translateZ(100px); }
+.top    { transform: rotateX(90deg) translateZ(100px); }
+.bottom { transform: rotateX(-90deg) translateZ(100px); }
+.cgg{
+  background-color: #9ECC47;
+}
+@keyframes rotateCube {
+  from { transform: rotateY(0); }
+  to { transform: rotateY(360deg); }
+}
+@media(max-width:992px){
+
+  .cube{
+      height: 200px;
+  }
+  .face{
+      height: 200px;
+      padding-top: 0;
+  }
+  .cgg .cgg1{
+      height: 100%;
+  }
+  .imgs{
+      padding-top: 0;
+  }
+}
     </style> 
     <style>
        
