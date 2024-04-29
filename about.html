@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Perfect Spaces</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@400;500;600&display=swap" rel="stylesheet"> 
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Flaticon Font -->
+    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+  
+
+    <!-- Navbar Start -->
+    <div class="container-fluid position-relative nav-bar p-0">
+        <div class="container position-relative" style="z-index: 9;">
+            <nav class="navbar navbar-expand-lg bg-white navbar-dark py-3 py-lg-0 pl-3 pl-lg-5">
+                <a href="index.html" class="navbar-brand">
+                   <img src="./img/logo.png" alt="">
+                </a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
+                    <div class="navbar-nav ml-auto py-0">
+                        <a href="index.html" class="nav-item nav-link font-weight-bold">HOME</a>
+                        <a href="about.html" class="nav-item nav-link active font-weight-bold">ABOUT US</a>
+                        <a href="project.html" class="nav-item nav-link font-weight-bold">PROJECTS</a>
+                        <a href="gallery.html" class="nav-item nav-link font-weight-bold">GALLERY</a>
+                        <a href="contact.html" class="nav-item nav-link font-weight-bold">CONTACT US</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Under Nav Start -->
+    <div class="container-fluid bg-dark py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 text-left mb-3 mb-lg-0">
+                    <div class="d-inline-flex text-left">
+                        <h1 class="flaticon-office font-weight-normal text-primary m-0 mr-3"></h1>
+                        <div class="d-flex flex-column">
+                            <h5 class="text-white">Our Office</h5>
+                            <p class="m-0 text-white">Manikonda, Hyderabad</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-left text-lg-center mb-3 mb-lg-0">
+                    <div class="d-inline-flex text-left">
+                        <h1 class="flaticon-email font-weight-normal text-primary m-0 mr-3"></h1>
+                        <div class="d-flex flex-column">
+                            <h5 class="text-white">Email Us</h5>
+                            <p class="m-0 text-white">info@perfectspaces.in</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-left text-lg-right mb-3 mb-lg-0">
+                    <div class="d-inline-flex text-left">
+                        <h1 class="flaticon-telephone font-weight-normal text-primary m-0 mr-3"></h1>
+                        <div class="d-flex flex-column">
+                            <h5 class="text-white">Call Us</h5>
+                            <p class="m-0 text-white">+91 96992 09999</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Under Nav End -->
+
+
+    <!-- Page Header Start -->
+    <div class="container-fluid bg-secondary py-3">
+        <div class="container py-5">
+            <div class="row align-items-center py-4">
+                <div class="col-md-6 text-center text-md-left d-flex flex-row justify-content-start">
+                    <div>
+                    <h1 class="mb-4 mr-5 mb-md-0 text-primary text-uppercase">About Us</h1>
+                    </div>
+                    <div class="mb-3 ml-5"> 
+                    <div class="cube">
+                        <div class="face front font-size:10px"><img src="./img/logo.png" alt=""></div>
+                        <div class="face back"><img src="./img/logo.png" alt=""></div>
+                        <div class="face right"><img src="./img/logo.png" alt=""></div>
+                        <div class="face left"><img src="./img/logo.png" alt=""></div>
+                        <div class="face top"><img src="./img/logo.png" alt=""></div>
+                        <div class="face bottom"><img src="./img/logo.png" alt=""></div>
+                    </div>
+                </div>
+                    <style>
+                       
+                        .cube {
+                            width: 100px;
+                            height: 100px;
+                            transform-style: preserve-3d;
+                            animation: rotateCube 4s infinite linear;
+                            padding-left: 20px;
+                        }
+                
+                        .face {
+                            width: 150px;
+                            height: 150px;
+                            position: absolute;
+                            text-align: center;
+                            line-height: 100px;
+                            font-size:10px;
+                            color:black;
+                            font-weight: 800;
+                            background-color: white;
+                            border: 5px solid rgb(158, 204, 71);
+                        }
+                
+                        .front  { transform: translateZ(50px); }
+                        .back   { transform: rotateY(180deg) translateZ(50px); }
+                        .right  { transform: rotateY(90deg) translateZ(50px); }
+                        .left   { transform: rotateY(-90deg) translateZ(50px); }
+                        .top    { transform: rotateX(90deg) translateZ(50px); }
+                        .bottom { transform: rotateX(-90deg) translateZ(50px); }
+                
+                        @keyframes rotateCube {
+                            from { transform: rotateY(0); }
+                            to { transform: rotateY(360deg); }
+                        }
+                    </style>
+                    
+                </div>
+                <div class="col-md-6 text-center text-md-right">
+                    <div class="d-inline-flex align-items-center">
+                        <a class="btn btn-outline-primary" href="index.html">Home</a>
+                        <i class="fas fa-angle-double-right text-primary mx-2"></i>
+                        <a class="btn btn-outline-primary" href="about.html">About Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Page Header Start -->
+
+
+    <!-- About Start -->
+    <div class="container-fluid bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="d-flex flex-column align-items-center justify-content-center cgg h-100 py-5 px-3">
+                        <i class="flaticon-brickwall display-1 font-weight-normal text-secondary mb-3"></i>
+                        <h4 class="display-3 mb-3">11+</h4>
+                        <h1 class="m-0">Years Experience</h1>
+                    </div>
+                </div>
+                <div class="col-lg-7 m-0 my-lg-5 pt-5 pb-5 pb-lg-2 pl-lg-5">
+                    <h6 class="text-primary font-weight-normal text-uppercase mb-3">Learn About Us</h6>
+                    <h1 class="mb-4 section-title">We Are The Best Interior Designing Firm In Your City</h1>
+                    <p>Perfect spaces is a pioneer in providing interior designing services all over India and located in Hyderabad.</p>
+                    <div class="row py-2">
+                        <div class="col-sm-6">
+                            <div class="d-flex align-items-center mb-4">
+                                <h1 class="flaticon-house font-weight-normal text-primary m-0 mr-3"></h1>
+                                <h5 class="text-truncate m-0">Project Planning</h5>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex align-items-center mb-4">
+                                <h1 class="flaticon-stairs font-weight-normal text-primary m-0 mr-3"></h1>
+                                <h5 class="text-truncate m-0">Exterior & Interior</h5>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex align-items-center mb-4">
+                                <h1 class="flaticon-office font-weight-normal text-primary m-0 mr-3"></h1>
+                                <h5 class="text-truncate m-0">Commercial Design</h5>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex align-items-center mb-4">
+                                <h1 class="flaticon-living-room font-weight-normal text-primary m-0 mr-3"></h1>
+                                <h5 class="text-truncate m-0">Residential Design</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+<style>
+    .cgg{
+        background-color: #9ECC47;
+    }
+</style>
+
+    <!-- Features Start -->
+    <div class="container-fluid bg-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 mt-5 py-5 pr-lg-5">
+                    <h6 class="text-primary font-weight-normal text-uppercase mb-3">Why Choose Us?</h6>
+                    <h1 class="mb-4 section-title">11+ Years Experience In The Interior Design Industry</h1>
+                    <p class="mb-4">Modern and Minimalistic designs
+                        CREATIVITY at its best by making PERFECT use of available SPACE</p>
+                    <ul class="list-inline">
+                        <li><h5><i class="far fa-check-square text-primary mr-3"></i>11+ Years Experience</h5></li>
+                        <li><h5><i class="far fa-check-square text-primary mr-3"></i>Best Interior Design</h5></li>
+                        <li><h5><i class="far fa-check-square text-primary mr-3"></i>Customer Satisfaction</h5></li>
+                    </ul>
+                    <a href="" class="btn btn-primary mt-3 py-2 px-4 text-dark">View More</a>
+                </div>
+                <div class="col-lg-5">
+                    <div class="d-flex flex-column align-items-center justify-content-center h-100 overflow-hidden">
+                        <img class="h-100" src="img/weare.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Features End -->
+
+
+     <!-- Features Start -->
+     <div class="container-fluid bg-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="d-flex flex-column align-items-center justify-content-center h-100 overflow-hidden">
+                        <img class="h-100 mb-5" src="img/rajgaru/p376.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-7 mt-5 py-5 pr-lg-5">
+                    <h6 class="text-primary font-weight-normal text-uppercase mb-3">How We Work</h6>
+                    <h1 class="mb-4 section-title">Ideate</h1>
+                    <p class="mb-4">Our expert designers are well trained and equipped with major modern interior designing tools that help us provide you with innovative solutions and unique Interior decor plans that stand out.
+                    </p>
+                    <h1 class="mb-4 section-title">Endorse</h1>
+                    <p class="mb-4">We are a one-stop-shop solution to all your interior designing needs and our computer imaging will offer you detailed views of the complete commercial/residence project. Our talented designer team will work with the clients to custom design their spaces.
+                    </p>
+                    <h1 class="mb-4 section-title">Execute</h1>
+                    <p class="mb-4">Our construction lead will ensure a perfect execution onsite per the agreed timelines.
+                    </p>
+                    
+                    
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- Features End -->
+
+
+    <!-- Team Start -->
+    <div class="container-fluid bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <div class="py-5 px-4 h-100 cgg d-flex flex-column align-items-center justify-content-center">
+                        <!-- <h6 class="text-white font-weight-normal text-uppercase mb-3">Our Projects</h6> -->
+                        <h1 class="mb-0 text-center">Go to Projects</h1>
+                    </div>
+                </div>
+
+<!--1-->
+                <div class="col-md-8 col-sm-6 p-0 py-sm-5">
+                    <div class="owl-carousel team-carousel position-relative p-0 py-sm-5">
+                        <div class="team d-flex flex-column text-center mx-3">
+                            <div class="position-relative">
+                                <img class="img-fluid w-100" href="navyabuilderslbnager.html" src="img/navyaimgs1.jpg" alt="">
+                                <div class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute">
+                                    <button class="btn btn-info text-center text-white"><a href="navyabuilderslbnager.html">View</a></button> 
+                                </div>
+                            </div>
+                            <div class="d-flex flex-column bg-secondary text-center py-3">
+                                <h5 class="text-white">Navya builders LB Nager Hyderabad - 2600 sft></h5> 
+                            </div>
+                        </div>
+<!--1-->
+
+<!--2-->
+                        <div class="team d-flex flex-column text-center mx-3">
+                            <div class="position-relative">
+                                <img class="img-fluid w-100" src="img/kkgaruimg1.jpg" alt="">
+                                <div class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute">
+                                    <button class="btn btn-info text-center text-white"><a href="kkgaru3bhknrt.html">View</a></button> 
+                                </div>
+                            </div>
+                            <div class="d-flex flex-column bg-secondary text-center py-3">
+                                <h5 class="text-white">kk garu 3bhk NRT Andhra Pradesh 2600sft</h5>
+                                
+                            </div>
+                        </div>
+<!--2-->
+
+<!--3-->
+                        <div class="team d-flex flex-column text-center mx-3">
+                            <div class="position-relative">
+                                <img class="img-fluid w-100" src="img/sathyaimgs1.jpg" alt="">
+                                <div class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute">
+                                    <button class="btn btn-info text-center text-white"><a href="satyanarayanagarunrt.html">View</a></button> 
+                                </div>
+                            </div>
+                            <div class="d-flex flex-column bg-secondary text-center py-3">
+                                <h5 class="text-white">Satyanarayana garu NRT Villa 5800sft</h5>
+                            </div>
+                        </div>
+<!--3-->
+
+<!--4-->
+                        <div class="team d-flex flex-column text-center mx-3">
+                            <div class="position-relative">
+                                <img class="img-fluid w-100" src="img/simhaimg1.jpg" alt="">
+                                <div class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute">
+                                    <button class="btn btn-info text-center text-white"><a href="simhagaruguntur.html">View</a></button> 
+                                </div>
+                            </div>
+                            <div class="d-flex flex-column bg-secondary text-center py-3">
+                                <h5 class="text-white">Simha garu guntur Andhra Pradesh - 3400 sft</h5>
+                            </div>
+                        </div>
+  <!--4-->                 
+  
+  <!--5-->
+                        <div class="team d-flex flex-column text-center mx-3">
+                            <div class="position-relative">
+                                <img class="img-fluid w-100" src="img/nccimg1.jpg" alt="">
+                                <div class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute">
+                                    <button class="btn btn-info text-center text-white"><a href="anilgaru3bhkgunturs.html">View</a></button> 
+                                </div>
+                            </div>
+                            <div class="d-flex flex-column bg-secondary text-center py-3">
+                                <h5 class="text-white">NCC urban Guntur Andhra Pradesh - 3800 sft</h5>
+                            </div>
+                        </div>
+ <!--5-->                       
+
+ <!--6-->
+ <div class="team d-flex flex-column text-center mx-3">
+    <div class="position-relative">
+        <img class="img-fluid w-100" src="img/nestimg1.jpg" alt="">
+        <div class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute">
+            <button class="btn btn-info text-center text-white"><a href="bharathi-garuhyderabad3bhk.html">View</a></button> 
+        </div>
+    </div>
+    <div class="d-flex flex-column bg-secondary text-center py-3">
+        <h5 class="text-white">NEST Hyderabad-2600 <br/> sft</h5>
+    </div>
+</div>
+<!--6-->
+
+<!--7-->
+                        <div class="team d-flex flex-column text-center mx-3">
+                            <div class="position-relative">
+                                <img class="img-fluid w-100" src="img/ashokimg1.jpg" alt="">
+                                <div class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute">
+                                    <button class="btn btn-info text-center text-white"><a href="bhaskarreddygaruvillhyderabad.html">View</a></button> 
+                                </div>
+                            </div>
+                            <div class="d-flex flex-column bg-secondary text-center py-3">
+                                <h5 class="text-white">Ashoka A la maison duplex Villa Hyderabad - 4800 sft</h5>
+                            </div>
+                        </div>
+ <!--7-->                      
+
+<!--8-->
+<div class="team d-flex flex-column text-center mx-3">
+    <div class="position-relative">
+        <img class="img-fluid w-100" src="img/Guravaiahimgs1.jpg" alt="">
+        <div class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute">
+            <button class="btn btn-info text-center text-white"><a href="guravaiah-garu3bhknrtandhrapradesh.html">View</a></button> 
+        </div>
+    </div>
+    <div class="d-flex flex-column bg-secondary text-center py-3">
+        <h5 class="text-white">Guravaiah garu 3bhk NRT Andhra Pradesh - 2600 sft</h5>
+    </div>
+</div>
+<!--8-->
+
+<!--9-->
+<div class="team d-flex flex-column text-center mx-3">
+    <div class="position-relative">
+        <img class="img-fluid w-100" src="img/harishimg1.jpg" alt="">
+        <div class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute">
+            <button class="btn btn-info text-center text-white"><a href="harishgaruvillaremanguda.html">View</a></button> 
+        </div>
+    </div>
+    <div class="d-flex flex-column bg-secondary text-center py-3">
+        <h5 class="text-white">Harish garu Villa remanguda Telangana - 5400 sft</h5>
+    </div>
+</div>
+<!--9-->
+
+<!--10-->
+<div class="team d-flex flex-column text-center mx-3">
+    <div class="position-relative">
+        <img class="img-fluid w-100" src="img/kishoreimg1.jpg" alt="">
+        <div class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute">
+            <button class="btn btn-info text-center text-white"><a href="kishore-garu4bhkhyderabadsaidabad.html">View</a></button> 
+        </div>
+    </div>
+    <div class="d-flex flex-column bg-secondary text-center py-3">
+        <h5 class="text-white">Kishore garu 4bhk Hyderabad saidabad- 6300 sft</h5>
+    </div>
+</div>
+<!--10-->
+
+
+<!--11-->
+<div class="team d-flex flex-column text-center mx-3">
+    <div class="position-relative">
+        <img class="img-fluid w-100" src="img/ashokaaimg1.jpg" alt="">
+        <div class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute">
+            <button class="btn btn-info text-center text-white"><a href="mani-garu3bhkashokahyderabad.html">View</a></button> 
+        </div>
+    </div>
+    <div class="d-flex flex-column bg-secondary text-center py-3">
+        <h5 class="text-white">Ashoka builders manikonda Hyderabad - 2600 sft</h5>
+    </div>
+</div>
+<!--11-->
+
+<!--12-->
+<div class="team d-flex flex-column text-center mx-3">
+    <div class="position-relative">
+        <img class="img-fluid w-100" src="img/prasadimg1.jpg" alt="">
+        <div class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute">
+            <button class="btn btn-info text-center text-white"><a href="prasad-garu3bhknrtandhrapradesh.html">View</a></button> 
+        </div>
+    </div>
+    <div class="d-flex flex-column bg-secondary text-center py-3">
+        <h5 class="text-white">Prasad garu 3bhk NRT Andhra Pradesh - 2600 sft</h5>
+    </div>
+</div>
+<!--12-->
+
+<!--13-->
+<div class="team d-flex flex-column text-center mx-3">
+    <div class="position-relative">
+        <img class="img-fluid w-100" src="img/rajgaruimg1.jpg" alt="">
+        <div class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute">
+            <button class="btn btn-info text-center text-white"><a href="raj-garu-villavijayawadaandhrapradesh.html">View</a></button> 
+        </div>
+    </div>
+    <div class="d-flex flex-column bg-secondary text-center py-3">
+        <h5 class="text-white">Raj garu Villa Vijayawada Andhra Pradesh - 6400 sft</h5>
+    </div>
+</div>
+<!--13-->
+
+<!--14-->
+<div class="team d-flex flex-column text-center mx-3">
+    <div class="position-relative">
+        <img class="img-fluid w-100" src="img/greenplanetimg1.jpg" alt="">
+        <div class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute">
+            <button class="btn btn-info text-center text-white"><a href="seshagirigaru3bhknrtandhrapradesh.html">View</a></button> 
+        </div>
+    </div>
+    <div class="d-flex flex-column bg-secondary text-center py-3">
+        <h5 class="text-white">Green planet guntur Andhra Pradesh - 2800 sft</h5>
+    </div>
+</div>
+<!--14-->
+
+<!--15-->
+<div class="team d-flex flex-column text-center mx-3">
+    <div class="position-relative">
+        <img class="img-fluid w-100" src="img/Seshagiriimg1.jpg" alt="">
+        <div class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute">
+            <button class="btn btn-info text-center text-white"><a href="seshagiriraogaru3bhknrtandhrapradesh.html">View</a></button> 
+        </div>
+    </div>
+    <div class="d-flex flex-column bg-secondary text-center py-3">
+        <h5 class="text-white">Seshagiri rao garu 3bhk NRT Andhra Pradesh - 2600 sft</h5>
+    </div>
+</div>
+<!--15-->
+
+<!--16-->
+<div class="team d-flex flex-column text-center mx-3">
+    <div class="position-relative">
+        <img class="img-fluid w-100" src="img/tvrimg1.jpg" alt="">
+        <div class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute">
+            <button class="btn btn-info text-center text-white"><a href="tvrgaruvillagunturandhrapradesh.html">View</a></button> 
+        </div>
+    </div>
+    <div class="d-flex flex-column bg-secondary text-center py-3">
+        <h5 class="text-white">TVR garu Villa Guntur Andhra Pradesh - 5800 sft</h5>
+    </div>
+</div>
+<!--16-->
+
+<!--17-->
+<div class="team d-flex flex-column text-center mx-3">
+    <div class="position-relative">
+        <img class="img-fluid w-100" src="img/svrsimg1.jpg" alt="">
+        <div class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute">
+            <button class="btn btn-info text-center text-white"><a href="anilgaru3bhkntr.html">View</a></button> 
+        </div>
+    </div>
+    <div class="d-flex flex-column bg-secondary text-center py-3">
+        <h5 class="text-white">SVRS brundavanam 3bhk Hyderabad - 1800 sft</h5>
+    </div>
+</div>
+<!--17-->
+
+<!--18-->
+<div class="team d-flex flex-column text-center mx-3">
+    <div class="position-relative">
+        <img class="img-fluid w-100" src="img/sreeimg1.jpg" alt="">
+        <div class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute">
+            <button class="btn btn-info text-center text-white"><a href="vamsigaru4bhkmanikondahyderabad.html">View</a></button> 
+        </div>
+    </div>
+    <div class="d-flex flex-column bg-secondary text-center py-3">
+        <h5 class="text-white">Sree Aditya manikonda Hyderabad - 2600 sft</h5>
+    </div>
+</div>
+<!--18-->
+
+<!--19-->
+<div class="team d-flex flex-column text-center mx-3">
+    <div class="position-relative">
+        <img class="img-fluid w-100" src="img/satimg1.jpg" alt="">
+        <div class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute">
+            <button class="btn btn-info text-center text-white"><a href="satyamgaru2bhknrt.html">View</a></button> 
+        </div>
+    </div>
+    <div class="d-flex flex-column bg-secondary text-center py-3">
+        <h5 class="text-white">Satyam garu 2bhk NRT Andhra Pradesh - 2600 sft</h5>
+    </div>
+</div>
+<!--19-->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-white py-5 px-sm-3 px-md-5">
+        <div class="row pt-5">
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h4 class="text-primary mb-4">Get In Touch</h4>
+                <p><i class="fa fa-map-marker-alt mr-2 text"></i>THE NEST apartment, AR infra & developers B2 Block , Flat no : 105 Survey no : 196/AA,195/E & 197/3 Sri Laxmi Nagar colony, Rajendra Nagar mandal , Manikonda, Near Manikonda marri chetu, R.R Dist - 500089 Hyderabad Telangana.</p>
+                <p><i class="fa fa-phone-alt mr-2 text"></i>+91 96992 09999</p>
+                <p><i class="fa fa-envelope mr-2 text"></i>info@perfectspaces.in</p>
+                <div class="d-flex justify-content-start mt-4">
+                    <a class="btn btn-outline-dark rounded-circle text-center mr-2 px-0 cgg"
+                        style="width: 38px; height: 38px;" href="https://twitter.com/perfectspaces02"><i class="fab fa-twitter"></i></a>
+                    
+                    <a class="btn btn-outline-dark rounded-circle text-center mr-2 px-0 cgg"
+                        style="width: 38px; height: 38px;" href="https://www.linkedin.com/company/perfectspaces/"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-outline-dark rounded-circle text-center mr-2 px-0 cgg"
+                        style="width: 38px; height: 38px;" href="https://www.instagram.com/perfectspaces02/"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h4 class="text-primary mb-4">Quick Links</h4>
+                <div class="d-flex flex-column justify-content-start">
+                    <a class="text-white mb-2" href="index.html"><i class="fa fa-angle-right mr-2"></i>Home</a>
+                    <a class="text-white mb-2" href="about.html"><i class="fa fa-angle-right mr-2"></i>About Us</a>
+                    <a class="text-white mb-2" href="project.html"><i class="fa fa-angle-right mr-2"></i>Our Projects</a>
+                    <a class="text-white mb-2" href="gallery.html"><i class="fa fa-angle-right mr-2"></i>Gallery</a>
+                    <a class="text-white" href="contact.html"><i class="fa fa-angle-right mr-2"></i>Contact Us</a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h4 class="text-primary mb-4">Popular Links</h4>
+                <div class="d-flex flex-column justify-content-start">
+                    <a class="text-white mb-2" href="index.html"><i class="fa fa-angle-right mr-2"></i>Home</a>
+                    <a class="text-white mb-2" href="about.html"><i class="fa fa-angle-right mr-2"></i>About Us</a>
+                    <a class="text-white mb-2" href="project.html"><i class="fa fa-angle-right mr-2"></i>Our Projects</a>
+                    <a class="text-white mb-2" href="gallery.html"><i class="fa fa-angle-right mr-2"></i>Gallery</a>
+                    <a class="text-white" href="contact.html"><i class="fa fa-angle-right mr-2"></i>Contact Us</a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <img src="img/logo.png"/>
+                <br/><br/><br/>
+
+                <div class="mb-3 ml-5"> 
+                    <div class="cube">
+                        <div class="face front font-size:10px"><img src="./img/logo.png" alt=""></div>
+                        <div class="face back"><img src="./img/logo.png" alt=""></div>
+                        <div class="face right"><img src="./img/logo.png" alt=""></div>
+                        <div class="face left"><img src="./img/logo.png" alt=""></div>
+                        <div class="face top"><img src="./img/logo.png" alt=""></div>
+                        <div class="face bottom"><img src="./img/logo.png" alt=""></div>
+                    </div>
+                </div>
+                    <style>
+                       
+                        .cube {
+                            width: 100px;
+                            height: 100px;
+                            transform-style: preserve-3d;
+                            animation: rotateCube 4s infinite linear;
+                            padding-left: 20px;
+                        }
+                
+                        .face {
+                            width: 150px;
+                            height: 150px;
+                            position: absolute;
+                            text-align: center;
+                            line-height: 100px;
+                            font-size:10px;
+                            color:black;
+                            font-weight: 800;
+                            background-color: white;
+                            
+                            border: 5px solid #9ECC26;
+                        }
+                        .cgg{
+                            background-color:#9ECC26;
+                        }
+                
+                        .front  { transform: translateZ(50px); }
+                        .back   { transform: rotateY(180deg) translateZ(50px); }
+                        .right  { transform: rotateY(90deg) translateZ(50px); }
+                        .left   { transform: rotateY(-90deg) translateZ(50px); }
+                        .top    { transform: rotateX(90deg) translateZ(50px); }
+                        .bottom { transform: rotateX(-90deg) translateZ(50px); }
+                
+                        @keyframes rotateCube {
+                            from { transform: rotateY(0); }
+                            to { transform: rotateY(360deg); }
+                        }
+                    </style>
+
+                
+            </div>
+            
+        </div>
+        <div class="container border-top border-secondary pt-5">
+            <p class="m-0 text-center text-white">
+                &copy; <a class="text-white font-weight-bold" href="#"><span class="text">Perfect Spaces</span></a>. All Rights Reserved. Designed
+                by
+                <a class="text font-weight-bold" href="https://www.thepatternscompany.com/">The Patterns Company</a>
+            </p>
+        </div>
+    </div>
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary back-to-top"><i class="fa fa-angle-double-up text-dark"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

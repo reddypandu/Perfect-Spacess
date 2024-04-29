@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Perfect Spaces</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+    
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@400;500;600&display=swap" rel="stylesheet"> 
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Flaticon Font -->
+    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid position-relative nav-bar p-0 mb-3">
+        <div class="container position-relative" style="z-index: 9;">
+            <nav class="navbar navbar-expand-lg bg-white navbar-dark py-3 py-lg-0 pl-3 pl-lg-5">
+                <a href="index.html" class="navbar-brand">
+                    <img src="./img/logo.png" alt="">
+                </a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
+                    <div class="navbar-nav ml-auto py-0">
+                        <a href="index.html" class="nav-item nav-link font-weight-bold">HOME</a>
+                        <a href="about.html" class="nav-item nav-link font-weight-bold">ABOUT US</a>
+                        <a href="project.html" class="nav-item nav-link font-weight-bold">PROJECTS</a>
+                        <a href="gallery.html" class="nav-item nav-link font-weight-bold">GALLERY</a>
+                        <a href="contact.html" class="nav-item nav-link active font-weight-bold">CONTACT US</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Under Nav Start -->
+    <div class="container-fluid bg-dark py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 text-left mb-3 mb-lg-0">
+                    <div class="d-inline-flex text-left">
+                        <h1 class="flaticon-office font-weight-normal text-primary m-0 mr-3"></h1>
+                        <div class="d-flex flex-column">
+                            <h5 class="text-white">Our Office</h5>
+                            <p class="m-0 text-white">Manikonda, Hyderabad</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-left text-lg-center mb-3 mb-lg-0">
+                    <div class="d-inline-flex text-left">
+                        <h1 class="flaticon-email font-weight-normal text-primary m-0 mr-3"></h1>
+                        <div class="d-flex flex-column">
+                            <h5 class="text-white">Email Us</h5>
+                            <p class="m-0 text-white">info@perfectspaces.in</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-left text-lg-right mb-3 mb-lg-0">
+                    <div class="d-inline-flex text-left">
+                        <h1 class="flaticon-telephone font-weight-normal text-primary m-0 mr-3"></h1>
+                        <div class="d-flex flex-column">
+                            <h5 class="text-white">Call Us</h5>
+                            <p class="m-0 text-white">+91 96992 09999</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Under Nav End -->
+
+
+    <!-- Page Header Start -->
+    <div class="container-fluid bg-secondary py-3">
+        <div class="container py-5">
+            <div class="row align-items-center py-4">
+                <div class="col-md-6 text-center text-md-left d-flex flex-row justify-content-start">
+                    <div>
+                    <h1 class="mb-4 mr-5 mb-md-0 text-primary text-uppercase">Contact Us</h1>
+                    </div>
+
+
+
+                    <div class="mb-3 ml-5"> 
+                    <div class="cube">
+                        <div class="face front font-size:10px"><img src="./img/logo.png" alt=""></div>
+                        <div class="face back"><img src="./img/logo.png" alt=""></div>
+                        <div class="face right"><img src="./img/logo.png" alt=""></div>
+                        <div class="face left"><img src="./img/logo.png" alt=""></div>
+                        <div class="face top"><img src="./img/logo.png" alt=""></div>
+                        <div class="face bottom"><img src="./img/logo.png" alt=""></div>
+                    </div>
+                </div>
+                    <style>
+                       
+                        .cube {
+                            width: 100px;
+                            height: 100px;
+                            transform-style: preserve-3d;
+                            animation: rotateCube 4s infinite linear;
+                            padding-left: 20px;
+                        }
+                
+                        .face {
+                            width: 150px;
+                            height: 150px;
+                            position: absolute;
+                            text-align: center;
+                            line-height: 100px;
+                            font-size:10px;
+                            color:black;
+                            font-weight: 800;
+                            background-color: white;
+                            
+                            border: 5px solid #9ECC26;
+                        }
+                        .cgg{
+                            background-color:#9ECC26;
+                        }
+                
+                        .front  { transform: translateZ(50px); }
+                        .back   { transform: rotateY(180deg) translateZ(50px); }
+                        .right  { transform: rotateY(90deg) translateZ(50px); }
+                        .left   { transform: rotateY(-90deg) translateZ(50px); }
+                        .top    { transform: rotateX(90deg) translateZ(50px); }
+                        .bottom { transform: rotateX(-90deg) translateZ(50px); }
+                
+                        @keyframes rotateCube {
+                            from { transform: rotateY(0); }
+                            to { transform: rotateY(360deg); }
+                        }
+                    </style> 
+                </div>
+
+
+
+
+
+
+
+
+
+
+                
+
+                <div class="col-md-6 text-center text-md-right">
+                    <div class="d-inline-flex align-items-center">
+                        <a class="btn btn-outline-primary" href="">Home</a>
+                        <i class="fas fa-angle-double-right text-primary mx-2"></i>
+                        <a class="btn btn-outline-primary" href="">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Page Header Start -->
+
+
+    <!-- Contact Start -->
+    <div class="container-fluid cgg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="d-flex flex-column justify-content-center cgg h-100 p-5">
+                        <div class="d-inline-flex border border-secondary p-4 mb-4">
+                            <h1 class="flaticon-office font-weight-normal text-secondary m-0 mr-3"></h1>
+                            <div class="d-flex flex-column">
+                                <h4>Our Office</h4>
+                                <p class="m-0 text-white">Sri Laxmi Nagar colony, Rajendra Nagar mandal , Manikonda</p>
+                            </div>
+                        </div>
+                        <div class="d-inline-flex border border-secondary p-4 mb-4">
+                            <h1 class="flaticon-email font-weight-normal text-secondary m-0 mr-3"></h1>
+                            <div class="d-flex flex-column">
+                                <h4>Email Us</h4>
+                                <p class="m-0 text-white">info@perfectspaces.in <br> 
+                                    anil@perfectspaces.in</p>
+                            </div>
+                        </div>
+                        <div class="d-inline-flex border border-secondary p-4">
+                            <h1 class="flaticon-telephone font-weight-normal text-secondary m-0 mr-3"></h1>
+                            <div class="d-flex flex-column">
+                                <h4>Call Us</h4>
+                                <p class="m-0 text-white">+91 96992 09999</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7 mb-5 my-lg-5 py-5 pl-lg-5">
+                    <div class="contact-form">
+                        <div id="success"></div>
+                        <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                            <div class="control-group">
+                                <input type="text" class="form-control p-4" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="control-group">
+                                <input type="email" class="form-control p-4" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="control-group">
+                                <input type="text" class="form-control p-4" id="number" placeholder="Your Number" required="required" data-validation-required-message="Please enter Your Number" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            
+                            <div class="control-group">
+                                <textarea class="form-control p-4" rows="6" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div>
+                                <button class="btn btn-primary py-3 px-5 text-dark" type="submit" id="sendMessageButton">Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact End -->
+    
+        <!-- Contact Start -->
+        <section class="page_single padTB100 text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-lg-12">
+                        <div class="row">
+                            <div class="col-md-12 col-lg-12 col-sm-12 pt-4">
+                                <!--//==Section Heading Start==//-->
+                                <div class="centered-title">
+                                    <h2 class="mb-5">Contact Us<span class="heading-shapes"><i></i><i></i><i></i></span></h2>
+                                    <div class="clear"></div>
+                                   
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                        <!--//==Section Heading End==//-->
+                        <div class="row d-flex flex-row">
+                            <div class="col-md-4 col-sm-4 col-lg-4">
+                                <div class="wa-box-style2 contact-box grey-bg">
+                                    <div class="text">
+                                        <h1 class="flaticon-office font-weight-normal text-secondary m-0 mr-3"></h1>
+                                        <h4 class="mt-2    text-uppercase text-center  text-dark">Address</h4>
+                                        <p align="justify" class="text-dark">THE NEST apartment, AR infra & developers B2 Block , Flat no : 105 Survey no : 196/AA,195/E & 197/3 Sri Laxmi Nagar colony, Rajendra Nagar mandal , Manikonda, Near Manikonda marri chetu, R.R Dist - 500089 Hyderabad Telangana</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 col-sm-4 col-lg-4">
+                                <div class="wa-box-style2 contact-box grey-bg">
+                                    <div class="text">
+                                        <h1 class="flaticon-telephone font-weight-normal text-secondary m-0 mr-3"></h1>
+                                        <h4 class=" mt-2   text-uppercase text-center  text-dark">Phone</h4>
+                                        <p class="text-dark">+91 96992 09999</p>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                       
+                            <div class="col-md-4 col-sm-4 col-lg-4">
+                                <div class="wa-box-style2 contact-box grey-bg">
+                                    <div class="text">
+                                        <h1 class="flaticon-email font-weight-normal text-secondary m-0 mr-3"></h1>
+                                        <h4 class="mt-2   text-uppercase text-center  text-dark">Email</h4>
+                                        <p class="text-dark">  info@perfectspaces.in <br>
+                                         anil@perfectspaces.in<br><br><br><br><br><br></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--//=============Contact Info End============//-->		
+        <!--//==Contact Form Section Start==//-->
+        <section class="page_single padB100">
+            <div class="container col-md-12 col-lg-12 col-sm-12">
+               
+                    
+
+                    
+ <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15228.519484808705!2d78.3755784!3d17.405554!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe160044dff3490e6!2sPerfect%20Spaces!5e0!3m2!1sen!2sin!4v1602519285560!5m2!1sen!2sin" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+         
+                    </div>
+                
+        </section>
+        <!--//==Contact Form Section End==//-->	
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-white py-5 px-sm-3 px-md-5">
+        <div class="row pt-5">
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h4 class="text-primary mb-4">Get In Touch</h4>
+                <p><i class="fa fa-map-marker-alt mr-2 text"></i>THE NEST apartment, AR infra & developers B2 Block , Flat no : 105 Survey no : 196/AA,195/E & 197/3 Sri Laxmi Nagar colony, Rajendra Nagar mandal , Manikonda, Near Manikonda marri chetu, R.R Dist - 500089 Hyderabad Telangana.</p>
+                <p><i class="fa fa-phone-alt mr-2 text"></i>+91 96992 09999</p>
+                <p><i class="fa fa-envelope mr-2 text"></i>info@perfectspaces.in</p>
+                <div class="d-flex justify-content-start mt-4">
+                    <a class="btn btn-outline-dark rounded-circle text-center mr-2 px-0 cgg"
+                        style="width: 38px; height: 38px;" href="https://twitter.com/perfectspaces02"><i class="fab fa-twitter"></i></a>
+                    
+                    <a class="btn btn-outline-dark rounded-circle text-center mr-2 px-0 cgg"
+                        style="width: 38px; height: 38px;" href="https://www.linkedin.com/company/perfectspaces/"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-outline-dark rounded-circle text-center mr-2 px-0 cgg"
+                        style="width: 38px; height: 38px;" href="https://www.instagram.com/perfectspaces02/"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h4 class="text-primary mb-4">Quick Links</h4>
+                <div class="d-flex flex-column justify-content-start">
+                    <a class="text-white mb-2" href="index.html"><i class="fa fa-angle-right mr-2"></i>Home</a>
+                    <a class="text-white mb-2" href="about.html"><i class="fa fa-angle-right mr-2"></i>About Us</a>
+                    <a class="text-white mb-2" href="project.html"><i class="fa fa-angle-right mr-2"></i>Our Projects</a>
+                    <a class="text-white mb-2" href="gallery.html"><i class="fa fa-angle-right mr-2"></i>Gallery</a>
+                    <a class="text-white" href="contact.html"><i class="fa fa-angle-right mr-2"></i>Contact Us</a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h4 class="text-primary mb-4">Popular Links</h4>
+                <div class="d-flex flex-column justify-content-start">
+                    <a class="text-white mb-2" href="index.html"><i class="fa fa-angle-right mr-2"></i>Home</a>
+                    <a class="text-white mb-2" href="about.html"><i class="fa fa-angle-right mr-2"></i>About Us</a>
+                    <a class="text-white mb-2" href="project.html"><i class="fa fa-angle-right mr-2"></i>Our Projects</a>
+                    <a class="text-white mb-2" href="gallery.html"><i class="fa fa-angle-right mr-2"></i>Gallery</a>
+                    <a class="text-white" href="contact.html"><i class="fa fa-angle-right mr-2"></i>Contact Us</a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <img src="img/logo.png"/>
+                <br/><br/><br/>
+
+                <div class="mb-3 ml-5"> 
+                    <div class="cube">
+                        <div class="face front font-size:10px"><img src="./img/logo.png" alt=""></div>
+                        <div class="face back"><img src="./img/logo.png" alt=""></div>
+                        <div class="face right"><img src="./img/logo.png" alt=""></div>
+                        <div class="face left"><img src="./img/logo.png" alt=""></div>
+                        <div class="face top"><img src="./img/logo.png" alt=""></div>
+                        <div class="face bottom"><img src="./img/logo.png" alt=""></div>
+                    </div>
+                </div>
+                    <style>
+                       
+                        .cube {
+                            width: 100px;
+                            height: 100px;
+                            transform-style: preserve-3d;
+                            animation: rotateCube 4s infinite linear;
+                            padding-left: 20px;
+                        }
+                
+                        .face {
+                            width: 150px;
+                            height: 150px;
+                            position: absolute;
+                            text-align: center;
+                            line-height: 100px;
+                            font-size:10px;
+                            color:black;
+                            font-weight: 800;
+                            background-color: white;
+                            
+                            border: 5px solid #9ECC26;
+                        }
+                        .cgg{
+                            background-color:#9ECC26;
+                        }
+                
+                        .front  { transform: translateZ(50px); }
+                        .back   { transform: rotateY(180deg) translateZ(50px); }
+                        .right  { transform: rotateY(90deg) translateZ(50px); }
+                        .left   { transform: rotateY(-90deg) translateZ(50px); }
+                        .top    { transform: rotateX(90deg) translateZ(50px); }
+                        .bottom { transform: rotateX(-90deg) translateZ(50px); }
+                
+                        @keyframes rotateCube {
+                            from { transform: rotateY(0); }
+                            to { transform: rotateY(360deg); }
+                        }
+                    </style>
+
+                
+            </div>
+            
+        </div>
+        <div class="container border-top border-secondary pt-5">
+            <p class="m-0 text-center text-white">
+                &copy; <a class="text-white font-weight-bold" href="#"><spam class="text">Perfect Spaces</spam></a>. All Rights Reserved. Designed
+                by
+                <a class="text font-weight-bold" href="https://www.thepatternscompany.com/">The Patterns Company</a>
+            </p>
+        </div>
+    </div>
+
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+
+
+
+
+    <script src="assets/js/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="assets/plugins/menu/js/hover-dropdown-menu.js"></script> 
+        <script type="text/javascript" src="assets/plugins/menu/js/jquery.hover-dropdown-menu-addon.js"></script>	
+        <script src="assets/plugins/owl-carousel/js/owl.carousel.js"></script>	 
+        <script src="assets/plugins/mixitup/js/jquery.mixitup.js"></script>	
+        <script src="assets/plugins/fancymedia/js/jquery.fancybox.pack.js"></script>
+        <script src="assets/plugins/fancymedia/js/jquery.fancybox-media.js"></script>  		
+        <script type="text/javascript" src="assets/plugins/counter/js/jquery.countTo.js"></script> 
+        <script type="text/javascript" src="assets/plugins/counter/js/jquery.appear.js"></script>  
+        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;key=AIzaSyApOXiWaaV5Xv4Wgjns-dDzNV-sMGf58O8"></script>
+        <script src="assets/js/main.js"></script>
+
+    
+</body>
+
+</html>
+
+
+
+
+
+
